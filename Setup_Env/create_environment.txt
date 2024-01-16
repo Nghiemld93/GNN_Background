@@ -1,0 +1,17 @@
+# Check available_virtual_environment
+    coda env list
+# Remove a available_virtual_environment ( if need)
+    conda env remove --name environment_name
+
+# create a virtual conda environment
+    conda create --name new_env_name
+
+
+# activate new_env_name=GCN_BACKGROUND
+    conda activate new_env_name
+
+# deactivate currentl virtual-environment
+    conda deactivate
+
+# install package in file requirement.txt
+    conda install --file requirement.txt
